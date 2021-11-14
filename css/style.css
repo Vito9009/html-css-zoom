@@ -13,27 +13,27 @@ body{
     cursor: pointer;
 }
 
-/* HEADER */
+/* MAIN SECTION */
 
+/* top section */
 header{
     background-color: rgb(0, 0, 0);
 }
 
-.container-header{
+.container-main-section-top{
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
 }
 
-.container-header .speaker, .container-header .expand{
+.container-main-section-top .speaker, .container-main-section-top .expand{
     padding: 5px;
     background-color: rgb(74, 74, 74);
     border-radius: 5px;
     margin: 5px;
 }
 
-/* MAIN SECTION */
-
+/* central section */
 .video-streaming-windows{
     width: 90vw;
     margin: 3% auto;
